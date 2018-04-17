@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Go-Child</string>
+    <string name="email">email</string>
+    <string name="password">password</string>
+    <string name="login">Login</string>
+    <string name="name">name</string>
+    <string name="phone">phone</string>
+    <string name="age">age</string>
+    <string name="id_number">id number</string>
+
+</resources>
