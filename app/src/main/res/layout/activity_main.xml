@@ -4,6 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/mainback"
+    android:theme="@style/MainAppTheme"
     tools:context="com.child.go.go_child.MainActivity">
 
 
@@ -14,8 +15,9 @@
         android:layout_height="match_parent"
         android:gravity="center"
         android:orientation="vertical"
-        android:padding="10dp"
+        android:padding="1dp"
         tools:context="com.demotxt.droidsrce.homedashboard.Home">
+
 
         <TextView
             android:layout_width="match_parent"
@@ -54,6 +56,7 @@
                 android:foreground="?android:attr/selectableItemBackground">
 
                 <LinearLayout
+                    android:id="@+id/reportCase"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:gravity="center"
@@ -99,6 +102,7 @@
                 android:foreground="?android:attr/selectableItemBackground">
 
                 <LinearLayout
+                    android:id="@+id/typesOfCases"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:gravity="center"
@@ -114,9 +118,9 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:gravity="center"
                         android:layout_gravity="center"
                         android:layout_marginTop="10dp"
+                        android:gravity="center"
                         android:text="TYPES OF CHILD ABUSE"
                         android:textStyle="bold" />
 
@@ -129,6 +133,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:layout_gravity="center"
                         android:gravity="center"
                         android:padding="5dp"
                         android:text="View types of child abuse you can report"
@@ -154,6 +159,7 @@
                 android:foreground="?android:attr/selectableItemBackground">
 
                 <LinearLayout
+                    android:id="@+id/moreInfo"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:gravity="center"
@@ -199,6 +205,7 @@
                 android:foreground="?android:attr/selectableItemBackground">
 
                 <LinearLayout
+                    android:id="@+id/contactALawyer"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:gravity="center"
@@ -209,13 +216,13 @@
                         android:layout_height="64dp"
                         android:background="@drawable/cerclebackgroundyello"
                         android:padding="10dp"
-                        android:src="@drawable/ic_attach_file_black_24dp" />
+                        android:src="@drawable/ic_contact_phone_black_24dp" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="10dp"
-                        android:text="JOIN US"
+                        android:text="BOOK A LAWYER "
                         android:textStyle="bold" />
 
                     <View
@@ -227,10 +234,10 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:layout_gravity="center"
                         android:gravity="center"
                         android:padding="5dp"
                         android:text="Join our team today"
-                        android:layout_gravity="center"
                         android:textColor="@android:color/darker_gray" />
 
                 </LinearLayout>
@@ -253,7 +260,7 @@
                 android:foreground="?android:attr/selectableItemBackground">
 
                 <LinearLayout
-
+                    android:id="@+id/joinUS"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:gravity="center"
@@ -264,13 +271,13 @@
                         android:layout_height="64dp"
                         android:background="@drawable/cerclebackgroundpurple"
                         android:padding="10dp"
-                        android:src="@drawable/ic_contact_phone_black_24dp" />
+                        android:src="@drawable/ic_attach_file_black_24dp" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="10dp"
-                        android:text="CONNECT/BOOK A LAWYER"
+                        android:text="JOIN US"
                         android:textStyle="bold" />
 
                     <View
@@ -290,8 +297,8 @@
                 </LinearLayout>
             </android.support.v7.widget.CardView>
 
-
         </LinearLayout>
+
     </LinearLayout>
 
 

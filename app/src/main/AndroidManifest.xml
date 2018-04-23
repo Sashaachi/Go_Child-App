@@ -17,9 +17,20 @@
             </intent-filter>
         </activity>
         <activity android:name=".Walkthrough" />
-        <activity android:name=".MainActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/MainAppTheme" />
         <activity android:name=".register.Register" />
         <activity android:name=".login.Login" />
+        <activity
+            android:name=".TypesOfCases"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Info"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".BookALawyer"
+            android:parentActivityName=".MainActivity"></activity>
     </application>
 
 </manifest>
